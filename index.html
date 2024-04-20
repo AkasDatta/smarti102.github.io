@@ -10,8 +10,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
      <!-- font-awesome cdn Jquary -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+        ::selection {
+            background-color: green; /* Change this to the desired background color */
+            color: white; /* Change this to the desired text color */
+        }
+    </style>
+    
 </head>
-<body>
+<body class="font-sans">
     <!-- Header -->
     <nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -154,7 +161,7 @@
         
         <div class="col-span-1 md:col-span-5 lg:col-span-5">
             <h1 class="text-4xl font-bold my-3 text-[#0F5F0D]">Domestication and economic production</h1>
-            <p class="text-justify font-semibold mb-8">
+            <p class="text-justify font-semibold mb-8 focus:text-green-600">
                 Cows are currently the most common domesticated ungulate (hoofed mammal), and they are found wherever humans live. Global stocks  of cows were estimated at nearly one billion animals in 2016, with  India, Brazil, and China having the largest populations (together  maintaining approximately one-third of all cows).
                 <br><br>
 
